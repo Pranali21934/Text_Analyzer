@@ -1,0 +1,133 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:#f7f7f7;
+  border-radius: 20px;
+  
+}
+input[type="file"]
+{
+  display: none;
+}
+
+.file-label {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.7s;
+}
+
+.file-label:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.submit-button {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.7s;
+}
+
+.submit-button:hover {
+  background-color: #219e49;
+  transform: scale(1.05);
+}
+.analysis-results {
+  /* display: flex;
+  justify-content: space-between; */
+  margin: 20px;
+  
+}
+
+.word-cards,
+.co-occurrence-cards {
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+}
+.inner-card
+{
+     
+     width: 100%;
+     display: flex;
+}
+.inner-card2
+{
+     width: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+     grid-gap: 10px;
+     grid-auto-rows: 150px;
+}
+.ic2 {
+  background-color:#f7f7f7;
+  border: 1px solid #93B1A6;
+  padding-left: 5px;
+  padding-top: 5px;
+  height: 100px;
+  border-radius: 5px;
+  padding: 17px;
+  transition: transform .9s ;
+}
+
+.card {
+  background-color: #f7f7f7;
+  border: 1px solid #93B1A6;
+  padding: 17px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 20%;
+  margin-right: 10px;
+  height: 100px;
+  transition: transform .9s ;
+  
+}
+.card:hover{
+  transform: scale(1.05);
+  border-radius: 5px;
+}
+.ic2:hover{
+  transform: scale(1.05);
+  border-radius: 5px;
+}
+
+p {
+  margin: 0;
+}
+.filter
+{
+ 
+  margin: 50px;
+}
+.filter input
+{
+  width: 100%;
+  border: 1px solid #93B1A6;
+  border-radius: 8px;
+  padding: 10px;
+}
